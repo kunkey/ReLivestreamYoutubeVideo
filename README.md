@@ -6,7 +6,7 @@ Centos OS + FFMPEG + PM2
  => https://linuxcanban.com/huong-dan-cai-dat-va-su-dung-ffmpeg-tren-centos-7-va-centos-8/
 # Install Package
 => move terminal to project folder
-=> $ npm install
+=> npm install
 # Install PM2
 => npm i -g pm2 
 # Open Port 80
