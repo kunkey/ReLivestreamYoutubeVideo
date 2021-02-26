@@ -10,7 +10,7 @@ Centos OS + FFMPEG + PM2
 # Install PM2
 => npm i -g pm2 
 # Open Port 80
-=> iptables -I INPUT -p tcp --dport 3030 -j ACCEPT<br>
+=> iptables -I INPUT -p tcp --dport 80 -j ACCEPT<br>
 => service iptables save
 # Run 
 => pm2 start app.js
